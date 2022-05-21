@@ -1,1 +1,1 @@
-# 36_72_MovieTicketBookingProject
+36_72_JAVA_Project
