@@ -1,10 +1,7 @@
 //package MovieTicket;
 
-import java.awt.*;
-import java.awt.event.*;
-import java.io.*;
-import javax.swing.*;
-import java.lang.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class MyActionListener implements ActionListener
 {

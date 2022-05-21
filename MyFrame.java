@@ -22,13 +22,13 @@ public class MyFrame extends Frame
 		mb1 = new MenuBar();
 		m1 = new Menu("Movie");
 		m2 = new Menu("Cinema name");
-		m3 = new Menu("Show timings");
+		m3 = new Menu("Show Timings");
 		mi1 = new MenuItem("Today");
 		mi2 = new MenuItem("Day");
 		mi3 = new MenuItem("Week");
 		
 		f1 = new Font("Times",Font.BOLD,50);
-		f2 = new Font("Times",Font.BOLD,20);
+		f2 = new Font("Times",Font.BOLD,17);
 		
 		//set Font
 		m1.setFont(f2);
