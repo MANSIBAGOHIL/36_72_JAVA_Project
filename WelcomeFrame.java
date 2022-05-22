@@ -8,7 +8,7 @@ public class WelcomeFrame extends Frame
 	Label l1,l2,l3;
 	MenuBar mb1;
 	Menu m1,m2,m3;
-	MenuItem mi1,mi2,mTheatre;
+	MenuItem mi1,mi2,mTheatre,mMovie;
 	Font f1,f2;
 	
 	MyActionListener ml = new MyActionListener(this);
@@ -34,6 +34,7 @@ public class WelcomeFrame extends Frame
 		mi1 = new MenuItem("Today");
 		mi2 = new MenuItem("Day");
 		mTheatre = new MenuItem("Theatre name");
+		mMovie = new MenuItem("Movie Name");
 		
 		l1.setBounds(450,300,500,100);
 		l2.setBounds(330,400,600,100);
@@ -57,18 +58,21 @@ public class WelcomeFrame extends Frame
 		mi1.setFont(f2);
 		mi2.setFont(f2);
 		mTheatre.setFont(f2);
+		mMovie.setFont(f2);
 		
 		mb1.add(m1);
 		mb1.add(m2);
 		mb1.add(m3);
 		m3.add(mi1);
 		m3.add(mi2);
+		m1.add(mMovie);
 		m2.add(mTheatre);
 		setMenuBar(mb1);
 		
 		mi1.addActionListener(ml);
 		mi2.addActionListener(ml);
 		mTheatre.addActionListener(ml);
+		mMovie.addActionListener(ml);
 	
 		addWindowListener(new WindowAdapter()
 			{
