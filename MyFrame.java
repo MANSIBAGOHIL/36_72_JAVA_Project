@@ -18,11 +18,14 @@ public class MyFrame extends Frame
 		super("Online Movie Ticket Booking");
 		setLayout(null);
 		setBounds(0,0,1200,800);
-		
+		setBackground(Color.PINK);
+		setForeground(Color.CYAN);
+
+
 		//initialize 
-		l1 = new Label("Welcome to");
-		l2 = new Label("online movie");
-		l3 = new Label("booking centre");
+		l1 = new Label("WELCOME TO");
+		l2 = new Label("ONLINE MOVIE TICKET");
+		l3 = new Label("BOOKING");
 		mb1 = new MenuBar();
 		m1 = new Menu("Movie");
 		m2 = new Menu("Theatre name");
