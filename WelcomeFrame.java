@@ -18,11 +18,15 @@ public class WelcomeFrame extends Frame
 		super("Online Movie Ticket Booking");
 		setLayout(null);
 		setBounds(0,0,1200,800);
+		setBackground(Color.PINK);
 		
+		Color customColor = new Color(36,118,135);
+		setForeground(customColor);
+
 		//initialize 
-		l1 = new Label("Welcome to");
-		l2 = new Label("online movie");
-		l3 = new Label("booking centre");
+		l1 = new Label("WELCOME TO");
+		l2 = new Label("ONLINE MOVIE TICKET");
+		l3 = new Label("BOOKING");
 		mb1 = new MenuBar();
 		m1 = new Menu("Movie");
 		m2 = new Menu("Theatre name");
@@ -31,9 +35,9 @@ public class WelcomeFrame extends Frame
 		mi2 = new MenuItem("Day");
 		mTheatre = new MenuItem("Theatre name");
 		
-		l1.setBounds(450,300,300,100);
-		l2.setBounds(450,400,500,100);
-		l3.setBounds(450,500,500,100);
+		l1.setBounds(450,300,500,100);
+		l2.setBounds(330,400,600,100);
+		l3.setBounds(500,500,500,100);
 		
 		f1 = new Font("Times",Font.BOLD,50);
 		f2 = new Font("Times",Font.BOLD,20);
