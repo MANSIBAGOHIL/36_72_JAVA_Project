@@ -3,16 +3,16 @@
 import java.awt.*;
 import java.awt.event.*;
 
-public class MyFrame1 extends Frame
+public class CinemaListFrame extends Frame
 {
 	Button bTheatre1,bTheatre2,bTheatre3,bTheatre4;
-    MyActionListener ml = new MyActionListener(this);
+	MyActionListener ml = new MyActionListener(this);
 	
-	MyFrame1()
+	CinemaListFrame()
 	{
         super("Theatre");
 		setLayout(null);
-		//setBackground(Color.PINK);
+		setBackground(Color.PINK);
 		setBounds(0,0,1200,800);
 		
 		bTheatre1 = new Button("R World INOX");

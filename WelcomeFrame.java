@@ -3,7 +3,7 @@
 import java.awt.*;
 import java.awt.event.*;
 //import java.awt.AWTEvent.*;
-public class MyFrame extends Frame
+public class WelcomeFrame extends Frame
 {
 	Label l1,l2,l3;
 	MenuBar mb1;
@@ -13,19 +13,16 @@ public class MyFrame extends Frame
 	
 	MyActionListener ml = new MyActionListener(this);
 	
-	MyFrame()
+	WelcomeFrame()
 	{
 		super("Online Movie Ticket Booking");
 		setLayout(null);
 		setBounds(0,0,1200,800);
-		setBackground(Color.PINK);
-		setForeground(Color.CYAN);
-
-
+		
 		//initialize 
-		l1 = new Label("WELCOME TO");
-		l2 = new Label("ONLINE MOVIE TICKET");
-		l3 = new Label("BOOKING");
+		l1 = new Label("Welcome to");
+		l2 = new Label("online movie");
+		l3 = new Label("booking centre");
 		mb1 = new MenuBar();
 		m1 = new Menu("Movie");
 		m2 = new Menu("Theatre name");
@@ -80,7 +77,7 @@ public class MyFrame extends Frame
 	}
 	public static void main(String args[])
 	{
-		MyFrame mf = new MyFrame();
+		WelcomeFrame mf = new WelcomeFrame();
 		mf.setVisible(true);
 	}
 }

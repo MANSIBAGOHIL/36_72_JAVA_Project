@@ -8,23 +8,25 @@ import java.awt.event.*;
 
 public class MyActionListener implements ActionListener
 {
-	MyFrame mf;
-	MyFrame1 mf1;
+	WelcomeFrame wf;
+	CinemaListFrame cf;
 	
-	MyActionListener(MyFrame m){
-		this.mf = m;
+	MyActionListener(WelcomeFrame w)
+	{
+		this.wf = w;
 	}
-	MyActionListener(MyFrame1 m){
-		this.mf1 = m;
+	MyActionListener(CinemaListFrame c)
+	{
+		this.cf = c;
 	}
 	
 	public void actionPerformed(ActionEvent e)
 	{
 		if(e.getActionCommand().equals("Theatre name"))
 		{
-			mf1 = new MyFrame1();
-			this.mf1.setVisible(true);
-			this.mf.setVisible(false);
+			cf = new CinemaListFrame();
+			this.cf.setVisible(true);
+			this.wf.setVisible(false);
 		}
 	}	
 }
