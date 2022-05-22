@@ -17,7 +17,7 @@ public class WelcomeFrame extends Frame
 	{
 		super("Online Movie Ticket Booking");
 		setLayout(null);
-		setBounds(0,0,1200,800);
+		setBounds(0,0,1200,900);
 		setBackground(Color.PINK);
 		
 		Color customColor = new Color(36,118,135);

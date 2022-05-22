@@ -55,7 +55,7 @@ public class CinemaListFrame extends JFrame
 		Color customColor = new Color(36,118,135);
 		Color customColor1 = new Color(220,118,135);
 		getContentPane().setBackground(customColor);
-		setForeground(Color.white);
+		//setForeground(Color.white);
 		bTheatre1.setBackground(customColor1);
 		bTheatre2.setBackground(customColor1);
 		bTheatre3.setBackground(customColor1);
