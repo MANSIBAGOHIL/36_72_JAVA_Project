@@ -1,10 +1,10 @@
 //package MovieTicket;
-import java.net.URL;
+//import java.net.URL;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import javax.swing.*;
-import java.lang.*;
+//import java.lang.*;
 
 public class MovieListFrame extends JFrame 
 {
